@@ -189,3 +189,26 @@ if (guessTheNumber) {
     alert(`ты угадал число ${number} Тебе понадобилось ${numberOfGuesses} попыток`);
   })
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

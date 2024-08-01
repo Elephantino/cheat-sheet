@@ -591,6 +591,56 @@ outline-color: black;
             </details>
 
 
+            <details class="show-piece opacity">
+              <summary><code><a name="opacity">opacity</a></code></summary>
+<div class="show-code">
+  <h2 class="show-code__title"></h2>
+
+  <div class="show-code__description">
+    <p></p>
+  </div>
+
+  <div class="show-code__inner">
+    <div class="show-code__performance">
+      <section class="class">
+<div class="opacity__performance"></div>
+      </section>
+   </div>
+
+    <textarea cols="30" rows="10" class="show-code__textarea">
+.opacity__performance {
+  opacity: 0;
+  animation: 3s 0.3s anim-opacity ease forwards;
+  background: green;
+  display: block;
+  width: 25px;
+  height: 25px;
+}
+
+@keyframes anim-opacity {
+  0% {
+    opacity: 0;
+    transform: translateY(80%);
+  }
+  20% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+	</textarea>
+
+  </div>
+</div>
+              
+            </details>
+
+
             <details class="show-piece box-shadow">
               <summary><code><a name="box-shadow">box-shadow</a></code></summary>
               <p>Тень в реальном мире редко бывает просто черной, она обычно содержит в себе оттенок основного цвета

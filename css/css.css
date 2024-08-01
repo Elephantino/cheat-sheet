@@ -222,7 +222,31 @@
 
 
 
+.opacity__performance {
+	opacity: 0;
+	animation: 3s 0.3s anim-opacity ease forwards;
+	background: green;
+	display: block;
+	width: 25px;
+	height: 25px;
+}
 
+@keyframes anim-opacity {
+	0% {
+		opacity: 0;
+		transform: translateY(80%);
+	}
+	20% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+		transform: translateY(0%);
+	}
+	100% {
+		opacity: 1;
+	}
+}
 
 
 
